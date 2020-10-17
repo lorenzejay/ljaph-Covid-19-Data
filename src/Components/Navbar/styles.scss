@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #262833;
+  .logo {
+    color: white;
+    letter-spacing: 4px;
+    padding-left: 5vw;
+    text-transform: uppercase;
+  }
+}

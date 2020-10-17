@@ -1,0 +1,33 @@
+.covid-data-display {
+  width: 100%;
+  margin-top: 5vh;
+  .data-display-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .data-display-error {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      background-color: white;
+      margin-bottom: 5vh;
+    }
+    .data-display-country {
+      text-align: center;
+      color: white;
+      text-shadow: 0 1px 0 black;
+      font-size: 2rem;
+    }
+    .data-display-cards {
+      display: flex;
+      gap: 5vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .data-display-cards {
+    flex-direction: column;
+    .card {
+      width: 75vw;
+    }
+  }
+}
